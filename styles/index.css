@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+.header{
+    padding: 25px;
+    margin: 50px;
+    width: 60%;
+    height: 100%;
+    background-color:#BF8ABC ;
+    border-radius: 5%;
+    margin-top: 20px;
+    
+ 
+}
+.contentDiv{
+    display: flex;
+    color: white;
+    font-size: 20px;
+   
+ 
+}
+.contentImg{
+    width: 341px;
+    height: 436px;
+    margin: 30px;
+    border-radius: 5%;
+    border:white 5px solid;
+
+}
+.logoDiv{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin-right: 50px;
+}
+.mailDiv{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.mailSection{
+    border:#BF8ABC 5px solid; 
+     border-radius: 5%;
+     padding: 25px;
+     margin: 50px;
+     width: 60%;
+     height: 300px;
+     margin-top: 20px;
+     height: 100%;
+    
+     
+}
+form{
+    font-size: 20px;
+}
+label{
+    width: 150px;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+    
+}
+.mailImg{
+    width: 341px;
+    height:236px;
+    margin: 5px;
+    border-radius: 5%;
+    border:#BF8ABC 5px solid;
+}
+form{
+    margin-left:70px;
+}
+button{
+    width: 100%;
+}
+footer{
+    width: 60%;
+    background-color: #BF8ABC;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footerP{
+    margin: 40px;
+}
+.error{
+    width: 100%;
+    color: red;
+}
+@media only screen and (max-width:1200px){
+    .contentDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mailDiv{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+
+
+
